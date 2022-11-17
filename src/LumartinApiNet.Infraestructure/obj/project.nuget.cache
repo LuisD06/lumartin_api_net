@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "IEvSMNTWerxIbIGuYydT9W2Nn4dmzv4agtb5ob6vVST7YHQVkxGaQyVLltT3iYpPeBj2zRvC3DPyikEnBT/7nA==",
+  "success": true,
+  "projectFilePath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Infraestructure\\LumartinApiNet.Infraestructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.5\\microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\restclient.net\\5.1.0\\restclient.net.5.1.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\restclient.net.abstractions\\5.1.0\\restclient.net.abstractions.5.1.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\restsharp\\108.0.2\\restsharp.108.0.2.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\urls\\1.0.0\\urls.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
