@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LumartinApiNet.Application/1.0.0": {
+        "dependencies": {
+          "LumartinApiNet.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LumartinApiNet.Application.dll": {}
+        }
+      },
+      "LumartinApiNet.Domain/1.0.0": {
+        "runtime": {
+          "LumartinApiNet.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LumartinApiNet.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LumartinApiNet.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -8,6 +8,6 @@ namespace LumartinApiNet.Domain.Repository
 {
     public interface IRickAndMortyRepository
     {
-        ICollection<RickAndMorty> GetAll();
+        Task<ICollection<RickAndMorty>> GetAll();
     }
 }

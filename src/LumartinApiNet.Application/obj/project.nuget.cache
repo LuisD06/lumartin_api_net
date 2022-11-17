@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NlEOYfBVNd1ucQ9S61mC8vOzY/GSzVPbV8wKrpxpUUHpmDiy+sQFC5rri7MjZ+/T78aJ3dMS0jRVLB8tFAO10g==",
+  "dgSpecHash": "YaWpagqJ6ktoMpLWKYfOcU5btdPy4nWk1//18Wic8TtLbqZTdcs5xDUeJuaIczDNDiBbaFbcPtu0eptnSxXecg==",
   "success": true,
-  "projectFilePath": "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Application\\LumartinApiNet.Application.csproj",
+  "projectFilePath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Application\\LumartinApiNet.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

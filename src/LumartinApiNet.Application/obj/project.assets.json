@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "LumartinApiNet.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LumartinApiNet.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LumartinApiNet.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LumartinApiNet.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LumartinApiNet.Domain/LumartinApiNet.Domain.csproj",
+      "msbuildProject": "../LumartinApiNet.Domain/LumartinApiNet.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "LumartinApiNet.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\David\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Application\\LumartinApiNet.Application.csproj",
+      "projectUniqueName": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Application\\LumartinApiNet.Application.csproj",
       "projectName": "LumartinApiNet.Application",
-      "projectPath": "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Application\\LumartinApiNet.Application.csproj",
+      "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Application\\LumartinApiNet.Application.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Application\\obj\\",
+      "outputPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj": {
+              "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

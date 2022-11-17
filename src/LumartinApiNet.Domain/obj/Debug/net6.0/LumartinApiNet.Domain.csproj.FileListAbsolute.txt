@@ -1,0 +1,12 @@
+E:\NetCore\lumartin_api_net\src\LumartinApiNet.Domain\bin\Debug\net6.0\LumartinApiNet.Domain.deps.json
+E:\NetCore\lumartin_api_net\src\LumartinApiNet.Domain\bin\Debug\net6.0\LumartinApiNet.Domain.dll
+E:\NetCore\lumartin_api_net\src\LumartinApiNet.Domain\bin\Debug\net6.0\LumartinApiNet.Domain.pdb
+E:\NetCore\lumartin_api_net\src\LumartinApiNet.Domain\obj\Debug\net6.0\LumartinApiNet.Domain.csproj.AssemblyReference.cache
+E:\NetCore\lumartin_api_net\src\LumartinApiNet.Domain\obj\Debug\net6.0\LumartinApiNet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\NetCore\lumartin_api_net\src\LumartinApiNet.Domain\obj\Debug\net6.0\LumartinApiNet.Domain.AssemblyInfoInputs.cache
+E:\NetCore\lumartin_api_net\src\LumartinApiNet.Domain\obj\Debug\net6.0\LumartinApiNet.Domain.AssemblyInfo.cs
+E:\NetCore\lumartin_api_net\src\LumartinApiNet.Domain\obj\Debug\net6.0\LumartinApiNet.Domain.csproj.CoreCompileInputs.cache
+E:\NetCore\lumartin_api_net\src\LumartinApiNet.Domain\obj\Debug\net6.0\LumartinApiNet.Domain.dll
+E:\NetCore\lumartin_api_net\src\LumartinApiNet.Domain\obj\Debug\net6.0\refint\LumartinApiNet.Domain.dll
+E:\NetCore\lumartin_api_net\src\LumartinApiNet.Domain\obj\Debug\net6.0\LumartinApiNet.Domain.pdb
+E:\NetCore\lumartin_api_net\src\LumartinApiNet.Domain\obj\Debug\net6.0\ref\LumartinApiNet.Domain.dll

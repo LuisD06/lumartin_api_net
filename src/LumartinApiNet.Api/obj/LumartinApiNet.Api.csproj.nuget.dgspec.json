@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Api\\LumartinApiNet.Api.csproj": {}
+    "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Api\\LumartinApiNet.Api.csproj": {}
   },
   "projects": {
-    "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Api\\LumartinApiNet.Api.csproj": {
+    "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Api\\LumartinApiNet.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Api\\LumartinApiNet.Api.csproj",
+        "projectUniqueName": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Api\\LumartinApiNet.Api.csproj",
         "projectName": "LumartinApiNet.Api",
-        "projectPath": "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Api\\LumartinApiNet.Api.csproj",
+        "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Api\\LumartinApiNet.Api.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Api\\obj\\",
+        "outputPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,7 +27,17 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Application\\LumartinApiNet.Application.csproj": {
+                "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Application\\LumartinApiNet.Application.csproj"
+              },
+              "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj": {
+                "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj"
+              },
+              "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Infraestructure\\LumartinApiNet.Infraestructure.csproj": {
+                "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Infraestructure\\LumartinApiNet.Infraestructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -60,6 +70,185 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Application\\LumartinApiNet.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Application\\LumartinApiNet.Application.csproj",
+        "projectName": "LumartinApiNet.Application",
+        "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Application\\LumartinApiNet.Application.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj": {
+                "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj",
+        "projectName": "LumartinApiNet.Domain",
+        "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Infraestructure\\LumartinApiNet.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Infraestructure\\LumartinApiNet.Infraestructure.csproj",
+        "projectName": "LumartinApiNet.Infraestructure",
+        "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Infraestructure\\LumartinApiNet.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj": {
+                "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -9,6 +9,6 @@ namespace LumartinApiNet.Application.Services
 {
     public interface IRickAndMortyService
     {
-        ICollection<RickAndMortyDto> GetAll();
+        Task<ICollection<RickAndMortyDto>> GetAll();
     }
 }

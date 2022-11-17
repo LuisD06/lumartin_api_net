@@ -26,6 +26,19 @@
           }
         }
       },
+      "RestSharp/108.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -88,6 +101,43 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "LumartinApiNet.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "LumartinApiNet.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LumartinApiNet.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LumartinApiNet.Application.dll": {}
+        }
+      },
+      "LumartinApiNet.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LumartinApiNet.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LumartinApiNet.Domain.dll": {}
+        }
+      },
+      "LumartinApiNet.Infraestructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "LumartinApiNet.Domain": "1.0.0",
+          "RestSharp": "108.0.2"
+        },
+        "compile": {
+          "bin/placeholder/LumartinApiNet.Infraestructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LumartinApiNet.Infraestructure.dll": {}
+        }
       }
     }
   },
@@ -134,6 +184,24 @@
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
         "microsoft.openapi.1.2.3.nupkg.sha512",
         "microsoft.openapi.nuspec"
+      ]
+    },
+    "RestSharp/108.0.2": {
+      "sha512": "zI1lzI+Jjzl6bcicyUYfLIGmmOAdJRkYepMnSPzrxd1o9RxztPaR/blUOmY8BpXdN3I+XlK9dtwCYRGCxvaODw==",
+      "type": "package",
+      "path": "restsharp/108.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/RestSharp.dll",
+        "lib/net5.0/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.108.0.2.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
       ]
     },
     "Swashbuckle.AspNetCore/6.2.3": {
@@ -216,10 +284,28 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "LumartinApiNet.Application/1.0.0": {
+      "type": "project",
+      "path": "../LumartinApiNet.Application/LumartinApiNet.Application.csproj",
+      "msbuildProject": "../LumartinApiNet.Application/LumartinApiNet.Application.csproj"
+    },
+    "LumartinApiNet.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LumartinApiNet.Domain/LumartinApiNet.Domain.csproj",
+      "msbuildProject": "../LumartinApiNet.Domain/LumartinApiNet.Domain.csproj"
+    },
+    "LumartinApiNet.Infraestructure/1.0.0": {
+      "type": "project",
+      "path": "../LumartinApiNet.Infraestructure/LumartinApiNet.Infraestructure.csproj",
+      "msbuildProject": "../LumartinApiNet.Infraestructure/LumartinApiNet.Infraestructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "LumartinApiNet.Application >= 1.0.0",
+      "LumartinApiNet.Domain >= 1.0.0",
+      "LumartinApiNet.Infraestructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -229,11 +315,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Api\\LumartinApiNet.Api.csproj",
+      "projectUniqueName": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Api\\LumartinApiNet.Api.csproj",
       "projectName": "LumartinApiNet.Api",
-      "projectPath": "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Api\\LumartinApiNet.Api.csproj",
+      "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Api\\LumartinApiNet.Api.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Api\\obj\\",
+      "outputPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -249,7 +335,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Application\\LumartinApiNet.Application.csproj": {
+              "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Application\\LumartinApiNet.Application.csproj"
+            },
+            "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj": {
+              "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj"
+            },
+            "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Infraestructure\\LumartinApiNet.Infraestructure.csproj": {
+              "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Infraestructure\\LumartinApiNet.Infraestructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

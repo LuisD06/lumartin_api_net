@@ -11,9 +11,9 @@ public class RickAndMortyService : IRickAndMortyService
     {
         this.repository = repository;
     }
-    public ICollection<RickAndMortyDto> GetAll()
+    public async Task<ICollection<RickAndMortyDto>> GetAll()
     {
-        var resultList = repository.GetAll();
+        var resultList = await repository.GetAll();
 
         // Mapeo Entidad -> Dto
         var entityDtoList = resultList.Select(i => new RickAndMortyDto() {

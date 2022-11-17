@@ -21,9 +21,9 @@ namespace LumartinApiNet.Api.Controllers
         }
 
         [HttpGet]
-        public ICollection<RickAndMortyDto> GetAll()
+        public async Task<ICollection<RickAndMortyDto>> GetAll()
         {
-            return service.GetAll();
+            return await service.GetAll();
         }
     }
 }

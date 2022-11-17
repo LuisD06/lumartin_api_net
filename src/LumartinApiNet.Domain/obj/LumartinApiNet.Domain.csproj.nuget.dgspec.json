@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj": {}
+    "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj": {}
   },
   "projects": {
-    "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj": {
+    "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj",
+        "projectUniqueName": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj",
         "projectName": "LumartinApiNet.Domain",
-        "projectPath": "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj",
+        "projectPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\LumartinApiNet.Domain.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Domain\\obj\\",
+        "outputPath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",

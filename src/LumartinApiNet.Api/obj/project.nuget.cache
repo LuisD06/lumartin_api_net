@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "U3keTXGfKCNzeHnQyMrRmPZjMrfMFMD5lXtz9dR1os6wPqNEvHr37PjlZLvU1cqRLNFCJiedIVK2Uqj5dTMLrQ==",
+  "dgSpecHash": "R1wsRA3D3SY74JIUhl+h0OAxWAebWGYJwm/i1tjcgYNKNGZkM59OerrtciODvXtlZSN/y7VrTwUWaiMp2AzVXQ==",
   "success": true,
-  "projectFilePath": "E:\\NetCore\\TestPractico\\src\\LumartinApiNet.Api\\LumartinApiNet.Api.csproj",
+  "projectFilePath": "E:\\NetCore\\lumartin_api_net\\src\\LumartinApiNet.Api\\LumartinApiNet.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\David\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\restsharp\\108.0.2\\restsharp.108.0.2.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
